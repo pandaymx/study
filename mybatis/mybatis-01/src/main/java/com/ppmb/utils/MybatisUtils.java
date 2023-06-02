@@ -17,7 +17,7 @@ public class MybatisUtils {
         try
         {
             //获取SqlSessionFactory对象
-            String resource = "mybatis-config.xml";
+            String resource = "mybatis-context.xml";
             InputStream inputStream = Resources.getResourceAsStream(resource);
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         } catch (IOException e)
