@@ -15,6 +15,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="com/ppmb/mapper/UserMapper.xml"/>
     </mappers>
 </configuration>
